@@ -17,6 +17,4 @@ then
 	fi
 else
 	exit 1
-fi
-done 
- 
+fi 
