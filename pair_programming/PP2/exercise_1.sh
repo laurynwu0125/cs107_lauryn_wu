@@ -5,7 +5,7 @@ git status
 read -n1 -p "Do you want to continue? (Y or N) " continue
 if [[ $continue == "Y" ]]
 then 
-	read -p "What is the commit message? " message
+	read -p "\nWhat is the commit message? " message
 	git commit -m "$message"
 	git status
 	read -n1 -p "Do you want to continue? (Y or N) " continue2
